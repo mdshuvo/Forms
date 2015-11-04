@@ -1,0 +1,24 @@
+/* contact form style sheet*/
+body{margin: 0 auto;padding:0;    background: rgb(187, 159, 56);}
+.container{padding: 0px 0px 0px 250px;}
+.container>h1{    padding: 30px 0px 20px 0px;margin: 0px 0px 0px -18px;font-family: sans-serif;text-transform: capitalize;color: #444;font-size: 42px;font-weight: 800;}
+.jumbotron{width: 650px;padding: 0px 0px;position:;}
+.jumbotron>#heading{color: white;background:#444;width:650px;margin-left: -60px;height: 85px;}
+.jumbotron>#heading>p{font-family: 'Crete Round', serif; font-size: 30px;font-weight: 800;padding: 15px 0px 0px 40px;}
+#form-group div{padding: 10px 0px;}
+
+#form-group>div:first-of-type>div>label,
+#form-group>div:nth-of-type(2)>div>label,
+#form-group>div:nth-of-type(3)>div>label{font-family: sans-serif;font-size: 15px;}
+#form-group>div:first-of-type>div>input,
+#form-group>div:nth-of-type(2)>div>input,
+#form-group>div:nth-of-type(3)>div>input{padding: 9px;width: 250px;    box-shadow: 0px 0px 8px #5A429C;border-style:none;outline: none;border-radius: 5px;}
+/*#form-group>div>div>input{border-color: gold;}*/
+#form-group>div:last-of-type{background:#444;width: 650px;;margin-left: -60px;height: 85px; }
+#form-group>div:last-of-type>div:first-of-type>input{color: white;margin: ;float: left;    margin: 0px 0px 0px 60px;font-size: 11px;}
+#form-group>div:last-of-type>div:first-of-type>label{color: white;float: left;   margin: -5px 5px 0px 4px;font-size: 14px;}
+#form-group>div:last-of-type>div:last-of-type>input{background: #e3e3e3;color: #333;font-family:sans-serif;font-size: 14px;font-weight: bold;padding: 8px 0 9px;text-align: center; width: 150px;cursor: pointer;outline: none.;border-style: none;border-radius: 5px;    float: right;    margin: -10px 20px 0px 0px;text-transform: capitalize;}
+#form-group>div:last-of-type>div:last-of-type>input:hover{background-color: gold;}
+#form-group>div:last-of-type>div:last-of-type>input[value="register"]:hover{color: gray;}
+#form-group>div:last-of-type>a{float: right;list-style: none;color: #ffa800;text-decoration: none;margin: 0px 20px 0px 0px;}
+#form-group>div:last-of-type>a:hover{color: white;}
